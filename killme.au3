@@ -1,5 +1,12 @@
 ; kill me if u can ^_^ 
 
+; - you can also add this to ur code , by puting any process name u want :
+; Func x($process) ]
+; x('process_target.exe')
+; $pid = ProcessExists($process)
+; if not $pid Then Exit
+ 
+
 func _x()
 while 1 < 2
 
