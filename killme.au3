@@ -13,7 +13,7 @@ while 1 < 2
    DllStructSetData($structure, 1, $svalue)
    $sRet = DllCall ("ntdll.dll" , "none" , "ZwSetInformationProcess" , "int" , $procHandle[0] , "int" , $priority , "int" , DllStructGetPtr($structure) , "int" , $lenght)
 
-
+msgbox(16,"wtf"," hello ☻ kill me please <3 ")
 
  wend
  
